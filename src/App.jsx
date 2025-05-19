@@ -12,9 +12,8 @@ import Milk from './Dairy';
 import Chocolates from './Chocolates';
 import './Chocolates.css';
 import './Veg.css';
-
 import './Home.css';
-import './Cardqr.css';
+
 import './Footer.css';
 import './Dairy.css';
 import { useSelector } from 'react-redux';
