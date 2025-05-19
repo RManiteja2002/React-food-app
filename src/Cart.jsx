@@ -4,8 +4,8 @@ import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import QRCode from 'react-qr-code';
 import emailjs from 'emailjs-com';
-import './Cart.css';
-import './Cardqr.css';
+// import './Cart.css';
+// import './Cardqr.css';
 
 
 function Cart() {
