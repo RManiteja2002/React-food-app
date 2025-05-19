@@ -1,0 +1,65 @@
+/* Reset and global layout */
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header with gradient text */
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ff512f, #dd2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Navbar styles */
+.navbar {
+    background: linear-gradient(to right, #0ba410, #203a43, #2c5364);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+.navbar a:hover {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Main content area */
+main {
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}

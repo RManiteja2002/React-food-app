@@ -1,0 +1,400 @@
+/* AboutUs.css */
+
+/* Base Styles */
+.about-us-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 0px;
+}
+
+.highlight {
+  color: #4CAF50;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 8%;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4efe9 100%);
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.cta-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.cta-button:hover {
+  background-color: #3e8e41;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* Stats Section */
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 8%;
+  background-color: #fff;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4CAF50;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Mission Section */
+.mission-section {
+  display: flex;
+  align-items: center;
+  padding: 5rem 8%;
+  background-color: #f9f9f9;
+}
+
+.mission-content {
+  flex: 1;
+  padding-right: 3rem;
+}
+
+.mission-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mission-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.mission-points {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.point {
+  flex: 1;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.point:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.point .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.point h3 {
+  margin-bottom: 0.5rem;
+  color: #4CAF50;
+}
+
+.point p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.mission-image {
+  flex: 1;
+}
+
+.mission-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* Team Section */
+.team-section {
+  padding: 5rem 8%;
+  text-align: center;
+  background-color: white;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.team-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  padding: 1.5rem;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.team-image-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #f1f1f1;
+}
+
+.team-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(76, 175, 80, 0.8);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.team-image-container:hover .social-links {
+  transform: translateY(0);
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.team-card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.team-card .title {
+  color: #4CAF50;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.team-card .bio {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  padding: 5rem 8%;
+  background-color: #f9f9f9;
+}
+
+.contact-content {
+  flex: 1;
+  padding-right: 3rem;
+}
+
+.contact-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.info-card i {
+  font-size: 2rem;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+.info-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.info-card p {
+  color: #666;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .hero-section,
+  .mission-section,
+  .contact-section {
+    flex-direction: column;
+  }
+  
+  .hero-content,
+  .mission-content,
+  .contact-content {
+    margin-bottom: 3rem;
+    padding-right: 0;
+  }
+  
+  .stats-section {
+    flex-wrap: wrap;
+  }
+  
+  .stat-card {
+    width: 50%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .mission-points {
+    flex-direction: column;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stat-card {
+    width: 100%;
+  }
+}

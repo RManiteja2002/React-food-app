@@ -1,0 +1,48 @@
+/* Card Payment Form Styling */
+.card-payment-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-payment-form h4 {
+  color: #0d0f13; /* Bootstrap's primary color */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-payment-form input.form-control,
+.card-payment-form input[type="password"] {
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s;
+  margin: 5px;
+}
+
+.card-payment-form input:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+  outline: none;
+}
+
+.card-payment-form button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #198754; /* Bootstrap success */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.card-payment-form button:hover {
+  background-color: #157347;
+}
