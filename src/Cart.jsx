@@ -1,5 +1,4 @@
 import { useDispatch, useSelector } from 'react-redux';
-import './Cart.css';
 import { addOrder, ClearCart, decCart, incCart, removeCart } from './store';
 import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
