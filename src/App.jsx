@@ -12,7 +12,7 @@ import Milk from './Dairy';
 import Chocolates from './Chocolates';
 import './Chocolates.css';
 import './Veg.css';
-import "./Cart.css";
+
 import './Home.css';
 import './Cardqr.css';
 import './Footer.css';
