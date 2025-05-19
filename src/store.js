@@ -13,7 +13,7 @@ const productSlice = createSlice({
     name : 'products',
     initialState : {
         Veg : [
-                {name: "Tomato", price: 50, image:"/public/Images/tamoto.jpg"},
+                {name: "Tomato", price: 50, image:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/1200px-Tomato_je.jpg"},
                 {name: "Potato", price: 100, image:"/public/Images/Potato.jpg"},
                 {name: "Onion", price: 80, image:"/public/Images/Onion.jpg"},
                 {name: "Eggplant", price: 40, image:"/public/Images/Eggplant.jpg"},
