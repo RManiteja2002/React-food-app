@@ -13,7 +13,7 @@ const productSlice = createSlice({
     name : 'products',
     initialState : {
         Veg : [
-                {name: "Tomato", price: 50, image:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/1200px-Tomato_je.jpg"},
+                {name: "Tomato", price: 50, image:"public/Images/tamoto.jpg"},
                 {name: "Potato", price: 100, image:"/public/Images/Potato.jpg"},
                 {name: "Onion", price: 80, image:"/public/Images/Onion.jpg"},
                 {name: "Eggplant", price: 40, image:"/public/Images/Eggplant.jpg"},
@@ -204,16 +204,17 @@ const userSlice = createSlice({
   },
   reducers: {
    loginUser: (state, action) => {
-  const { name } = action.payload;
-  const userFound = state.user.find(user => user.name === name);
+    console.log(action);
+  const userFound = state.user.find(user => user.email === action.payload.email);
 
   if (userFound) {
     state.isAuthenticated = true;
     state.currentUser = userFound;
-   
+   alert("login success")
   } else {
     state.isAuthenticated = false; //  update auth state
-    state.currentUser = null;      //  reset user
+    state.currentUser = null;  
+    alert("login faild")    //  reset user
     
   }
 },
@@ -251,7 +252,7 @@ const store = configureStore({
         users: userSlice.reducer,
     }
 });
-
+        
 store.subscribe(() => {
     const state = store.getState();
     localStorage.setItem("cart",JSON.stringify(state.cart));

@@ -25,7 +25,7 @@ import SignUp from './SignUp';
 
 function App() {
   
-const isAuthenticate = useSelector((state) => state.users.isAuthenticate);
+const isAuthenticate = useSelector((state) => state.users.isAuthenticated);
 const currentUser = useSelector(state => state.users.currentUser);
 
 

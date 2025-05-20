@@ -26,13 +26,13 @@ function Cart() {
     setCouponName(couponCode);
 
     switch (couponCode) {
-      case 'DASARA10':
+      case 'MANI10':
         setCouponCodeDiscountPer(10);
         break;
-      case 'DASARA20':
+      case 'MANI20':
         setCouponCodeDiscountPer(20);
         break;
-      case 'DASARA30':
+      case 'MANI30':
         setCouponCodeDiscountPer(30);
         break;
       default:

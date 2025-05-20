@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import './Login.css';
 import { loginUser } from './store';
+import { useForm } from 'react-hook-form';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -12,7 +13,6 @@ function Login() {
     
     e.preventDefault();
     dispatch(loginUser({ email, password }));
-
   };
 
   return (
