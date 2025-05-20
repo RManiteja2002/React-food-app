@@ -10,13 +10,6 @@ import Orders from './Orders';
 import './Menubar.css'; // Make sure to import the CSS
 import Milk from './Dairy';
 import Chocolates from './Chocolates';
-import './Chocolates.css';
-import './Veg.css';
-import './Home.css';
-import './Cart.css';
-import './Cardqr.css';
-import './Footer.css';
-import './Dairy.css';
 import { useSelector } from 'react-redux';
 import Footer from './Footer';
 import Login from './Login';
