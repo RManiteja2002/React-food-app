@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from './store';
-import './Veg.css'; // Reuse Veg styles for layout, filters, etc.
+import './Chocolates.css'; 
 
 function Chocolates() {
   const dispatch = useDispatch();
