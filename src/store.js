@@ -49,7 +49,7 @@ const productSlice = createSlice({
               
         ],
         NonVeg :[
-                {name: "Chicken", price: 150, image:"/public/Images/Chicken.jpg"},
+                {name: "Chicken", price: 150, image:"https://www.bing.com/th/id/OIP.-5AgsLtv3XsbUAgzJgCqlAHaEK?w=273&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"},
                 {name: "Mutton", price: 300, image:"/public/Images/Mutton.jpg"},
                 {name: "Fish", price: 200, image:"/public/Images/Fish.jpg"},
                 {name: "Prawns", price: 250, image:"/public/Images/Prawns.jpg"},
@@ -90,7 +90,7 @@ const productSlice = createSlice({
                 {name: "Squid", price: 230, image:"/public/Images/Squid.jpg"}
               ],
         Dairy :[
-                {name: "Curd", price: 50, image:"public/Images/curd.webp"},
+                {name: "Curd", price: 50, image:"https://m.media-amazon.com/images/I/71bU7EV-exL._SX466_.jpg"},
                 {name: "Butter", price: 70, image:"public/Images/Butter.jpg"},
                 {name: "Cheese", price: 100, image:"public/Images/cheese.jpg"},
                 {name: "Curd", price: 80, image:"public/Images/curd1.jpg"},
@@ -124,7 +124,7 @@ const productSlice = createSlice({
                 {name: "Milk", price: 70, image:"public/Images/milk2.jpg"},
                ],
         Chocolates :[
-                {name: "5 Star", price: 100, image:"public/Images/5Star.jpg"},
+                {name: "5 Star", price: 100, image:"https://cdn.shopclues.com/images1/detailed/94036/141843581-94036359-1540017507.jpg"},
                 {name: "Cadbury", price: 70, image:"public/Images/cadbury.jpg"},
                 {name: "Chocolates", price: 100, image:"public/Images/Chocolate.jpg"},
                 {name: "DairyMilk", price: 150, image:"public/Images/DairyMilk.jpg"},
